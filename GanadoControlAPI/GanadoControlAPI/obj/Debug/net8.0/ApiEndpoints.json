@@ -1,0 +1,521 @@
+[
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.FarmacoController",
+    "Method": "Post",
+    "RelativePath": "api/Farmaco",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Proveedor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tipo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UnidadMedida",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaCaducidad",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaEntrega",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Precio",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "Cantidad",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Foto",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdFinca",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.FarmacoController",
+    "Method": "Put",
+    "RelativePath": "api/Farmaco/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Proveedor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tipo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UnidadMedida",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaCaducidad",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaEntrega",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Precio",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "Cantidad",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Foto",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdFinca",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.FarmacoController",
+    "Method": "Delete",
+    "RelativePath": "api/Farmaco/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.FarmacoController",
+    "Method": "GetFarmacos",
+    "RelativePath": "api/Farmaco/finca",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idFinca",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.ProblemaFisicoController",
+    "Method": "InsertarParto",
+    "RelativePath": "api/ProblemaFisico",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdGanado",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NombreParte",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.ProblemaFisicoController",
+    "Method": "ActualizarProbFisico",
+    "RelativePath": "api/ProblemaFisico/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdGanado",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NombreParte",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.ProblemaFisicoController",
+    "Method": "EliminarProbFisico",
+    "RelativePath": "api/ProblemaFisico/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.ProblemaFisicoController",
+    "Method": "ObtenerProbFisicoXGanado",
+    "RelativePath": "api/ProblemaFisico/ganado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idGanado",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.ProblemaFisicoController",
+    "Method": "GrafPartesDa\u00F1adas",
+    "RelativePath": "api/ProblemaFisico/Grafico",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.RecordatorioController",
+    "Method": "Post",
+    "RelativePath": "api/Recordatorio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Fecha",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdGanado",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Idfarmaco",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.RecordatorioController",
+    "Method": "Delete",
+    "RelativePath": "api/Recordatorio/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.RecordatorioController",
+    "Method": "Update",
+    "RelativePath": "api/Recordatorio/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recordatorio",
+        "Type": "Models.Entities.Recordatorio",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.RecordatorioController",
+    "Method": "GetRecordatorioPorGanado",
+    "RelativePath": "api/Recordatorio/Ganado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idGanado",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.TratamientoController",
+    "Method": "Post",
+    "RelativePath": "api/Tratamiento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdGanado",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdFarmaco",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Fecha",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tipo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Dosis",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "Observacion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AreaAplicacion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.TratamientoController",
+    "Method": "Delete",
+    "RelativePath": "api/Tratamiento/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.TratamientoController",
+    "Method": "ObtenerTratamientoPorFinca",
+    "RelativePath": "api/Tratamiento/Finca/{idFinca}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idFinca",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.TratamientoController",
+    "Method": "ObtenerTratamientoPorGanado",
+    "RelativePath": "api/Tratamiento/Ganado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Ganado",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.TratamientoController",
+    "Method": "ObtenerTratamientoPorGrupo",
+    "RelativePath": "api/Tratamiento/Grupo/{idGrupo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idGrupo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.TratamientoController",
+    "Method": "GetTratamientosPorGanado",
+    "RelativePath": "api/Tratamiento/Usuario/{idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

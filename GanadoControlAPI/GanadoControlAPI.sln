@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GanadoControlAPI", "GanadoControlAPI\GanadoControlAPI.csproj", "{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{961A7414-F3C7-4154-912E-F5B6A8DDBB45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{961A7414-F3C7-4154-912E-F5B6A8DDBB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961A7414-F3C7-4154-912E-F5B6A8DDBB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961A7414-F3C7-4154-912E-F5B6A8DDBB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961A7414-F3C7-4154-912E-F5B6A8DDBB45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F0B28FC-DDB2-4267-9483-E8999951A983}
+	EndGlobalSection
+EndGlobal
