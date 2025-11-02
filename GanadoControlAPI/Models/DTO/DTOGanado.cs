@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Models.DTO
 {
-    public class DAOGanado
+    public class DTOGanado
     {
         public string IdGanado { get; set; }
         public string Tipo { get; set; }

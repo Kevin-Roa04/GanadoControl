@@ -1,14 +1,10 @@
+
+
+using Microsoft.Data.SqlClient;
 using Models.DTO;
 using Models.Entities;
 using Models.Interfaces;
-using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Data.Repository
 {
@@ -19,7 +15,7 @@ namespace Data.Repository
         {
             this.CadenaConexion = CadenaConexion;
         }
-        public async Task<List<DAOGanado>> GetAllGanadoByGrupo(int IdGrupo)
+        public async Task<List<DTOGanado>> GetAllGanadoByGrupo(int IdGrupo)
         {
             using (SqlConnection conexion = new SqlConnection(CadenaConexion))
             {
@@ -30,11 +26,11 @@ namespace Data.Repository
                 {
                     await conexion.OpenAsync();
                     SqlDataReader dr = await cmd.ExecuteReaderAsync();
-                    List<DAOGanado> ganados = new List<DAOGanado>();
+                    List<DTOGanado> ganados = new List<DTOGanado>();
                     while (dr.Read())
                     {
 
-                        DAOGanado gando = new DAOGanado()
+                        DTOGanado gando = new DTOGanado()
                         {
                             IdGanado = dr["IdGanado"].ToString(),
                             Tipo = dr["Tipo"].ToString(),
@@ -62,9 +58,9 @@ namespace Data.Repository
             }
         }
 
-        public async Task<DAOGanado> GetGanado(string id)
+        public async Task<DTOGanado> GetGanado(string id)
         {
-            DAOGanado ganado = new DAOGanado();
+            DTOGanado ganado = new DTOGanado();
             using (SqlConnection conexion = new SqlConnection(CadenaConexion))
             {
                 SqlCommand cmd = new SqlCommand("uspGetGanado", conexion);
@@ -77,7 +73,7 @@ namespace Data.Repository
                     {
                         while (dr.Read())
                         {
-                            ganado = new DAOGanado()
+                            ganado = new DTOGanado()
 
                             {
                                 IdGanado = dr["IdGanado"].ToString(),
@@ -157,7 +153,7 @@ namespace Data.Repository
             }
         }
 
-        public async Task<bool> UpdateGanado(DAOGanado ganado)
+        public async Task<bool> UpdateGanado(DTOGanado ganado)
         {
             using (SqlConnection conexion = new SqlConnection(CadenaConexion))
             {

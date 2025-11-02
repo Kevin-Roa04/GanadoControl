@@ -1,13 +1,10 @@
+
+
+using Microsoft.Data.SqlClient;
 using Models.DTO;
 using Models.Entities;
 using Models.Interfaces;
-using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Data.Repository
 {
@@ -40,7 +37,7 @@ namespace Data.Repository
                 }
             }
         }
-        public async Task<List<DAOGrupo>> GetAllByFinca(int IdFinca)
+        public async Task<List<DTOGrupo>> GetAllByFinca(int IdFinca)
         {
             using (SqlConnection conexion = new SqlConnection(CadenaConexion))
             {
@@ -51,11 +48,11 @@ namespace Data.Repository
                 {
                     await conexion.OpenAsync();
                     SqlDataReader dr = await cmd.ExecuteReaderAsync();
-                    List<DAOGrupo> grupos = new List<DAOGrupo>();
+                    List<DTOGrupo> grupos = new List<DTOGrupo>();
                     while (dr.Read())
                     {
 
-                        DAOGrupo grupo = new DAOGrupo()
+                        DTOGrupo grupo = new DTOGrupo()
                         {
                             IdGrupo = Convert.ToInt32(dr["IdGrupo"]),
                             IdFinca = Convert.ToInt32(dr["IdFinca"]),
@@ -76,9 +73,9 @@ namespace Data.Repository
             }
         }
 
-        public async Task<DAOGrupo> GetGrupo(int id)
+        public async Task<DTOGrupo> GetGrupo(int id)
         {
-            DAOGrupo grupo = new DAOGrupo();
+            DTOGrupo grupo = new DTOGrupo();
             using (SqlConnection conexion = new SqlConnection(CadenaConexion))
             {
                 SqlCommand cmd = new SqlCommand("uspGetGrupo", conexion);
@@ -91,7 +88,7 @@ namespace Data.Repository
                     {
                         while (dr.Read())
                         {
-                            grupo = new DAOGrupo()
+                            grupo = new DTOGrupo()
                             {
                                 IdGrupo = Convert.ToInt32(dr["IdGrupo"]),
                                 IdFinca = Convert.ToInt32(dr["IdFinca"]),
@@ -110,7 +107,7 @@ namespace Data.Repository
             }
         }
 
-        public async Task<bool> UpdateGrupo(DAOGrupo grupo)
+        public async Task<bool> UpdateGrupo(DTOGrupo grupo)
         {
             using (SqlConnection conexion = new SqlConnection(CadenaConexion))
             {

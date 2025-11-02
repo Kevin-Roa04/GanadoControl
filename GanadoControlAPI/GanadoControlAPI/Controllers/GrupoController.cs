@@ -8,7 +8,7 @@ namespace GanadoControlAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class GrupoController:ControllerBase
+    public class GrupoController : ControllerBase
     {
         public GrupoController(IWebHostEnvironment _webHostEnvironment1, IGrupoRepository grupoRepository, IDetalleGrupoFotoRepository detalleGrupoFoto)
         {
@@ -26,7 +26,7 @@ namespace GanadoControlAPI.Controllers
             {
                 return BadRequest(ModelState);
             }
-            if(dtogrupo is null)
+            if (dtogrupo is null)
             {
                 return BadRequest("El objeto grupo es nulo");
             }
@@ -68,8 +68,8 @@ namespace GanadoControlAPI.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
-        [HttpGet("{id}")]
-        public async Task<IActionResult> Get([FromForm] int id)
+        [HttpGet("{id:int}")]
+        public async Task<IActionResult> Get([FromRoute] int id)
         {
             try
             {
@@ -87,13 +87,13 @@ namespace GanadoControlAPI.Controllers
             {
                 return BadRequest(ModelState);
             }
-            if(grupo is null)
+            if (grupo is null)
             {
                 return BadRequest("El objeto grupo es nulo");
             }
             try
             {
-                DAOGrupo dAOGrupo = new DAOGrupo();
+                DTOGrupo dAOGrupo = new DTOGrupo();
                 if (grupo.FotoURL != null)
                 {
                     dAOGrupo.FotoURL = await ImageUtility.CrearImagen(grupo.FotoURL, "FotosDeGrupos", _webHostEnvironment.WebRootPath, HttpContext.Request.Scheme, HttpContext.Request.Host.ToString());

@@ -10,3 +10,4 @@ C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\Models\obj\Debug\ne
 C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\Models\obj\Debug\net8.0\Models.pdb
 C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\Models\obj\Debug\net8.0\ref\Models.dll
 C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\Models\obj\Debug\net8.0\Models.csproj.AssemblyReference.cache
+C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\Models\obj\Debug\net8.0\Models.sourcelink.json

@@ -13,3 +13,4 @@ C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\Data\obj\Debug\net8
 C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\Data\obj\Debug\net8.0\refint\Data.dll
 C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\Data\obj\Debug\net8.0\Data.pdb
 C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\Data\obj\Debug\net8.0\ref\Data.dll
+C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\Data\obj\Debug\net8.0\Data.sourcelink.json

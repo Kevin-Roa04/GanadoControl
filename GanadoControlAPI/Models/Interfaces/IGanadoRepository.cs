@@ -10,9 +10,9 @@ namespace Models.Interfaces
 {
     public interface IGanadoRepository : IRepository<Ganado>
     {
-        Task<List<DAOGanado>> GetAllGanadoByGrupo(int IdGrupo);
-        Task<DAOGanado> GetGanado(string id);
-        Task<bool> UpdateGanado(DAOGanado ganado);
+        Task<List<DTOGanado>> GetAllGanadoByGrupo(int IdGrupo);
+        Task<DTOGanado> GetGanado(string id);
+        Task<bool> UpdateGanado(DTOGanado ganado);
         Task<DTOGrafVacunas> GrafVacunas(int IdGrupo);
     }
 }

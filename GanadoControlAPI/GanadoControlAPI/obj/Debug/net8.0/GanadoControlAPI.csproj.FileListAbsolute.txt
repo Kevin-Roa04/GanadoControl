@@ -180,3 +180,4 @@ C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\GanadoControlAPI\ob
 C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\GanadoControlAPI\obj\Debug\net8.0\GanadoControlAPI.genruntimeconfig.cache
 C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\GanadoControlAPI\obj\Debug\net8.0\ref\GanadoControlAPI.dll
 C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\GanadoControlAPI\bin\Debug\net8.0\GanadoControlAPI.staticwebassets.runtime.json
+C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\GanadoControlAPI\obj\Debug\net8.0\GanadoControlAPI.sourcelink.json

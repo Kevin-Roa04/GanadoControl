@@ -5,6 +5,81 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/DetalleGanado": {
+      "post": {
+        "tags": [
+          "DetalleGanado"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "IdGanado": {
+                    "type": "string"
+                  },
+                  "FotoURL": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "IdGanado": {
+                  "style": "form"
+                },
+                "FotoURL": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DetalleGrupoFoto": {
+      "post": {
+        "tags": [
+          "DetalleGrupoFoto"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "IdGrupo": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "FotoURL": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "IdGrupo": {
+                  "style": "form"
+                },
+                "FotoURL": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Farmaco/finca": {
       "get": {
         "tags": [
@@ -236,6 +311,419 @@
       "delete": {
         "tags": [
           "Farmaco"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ganado": {
+      "post": {
+        "tags": [
+          "Ganado"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "IdGanado": {
+                    "type": "string"
+                  },
+                  "Raza": {
+                    "type": "string"
+                  },
+                  "Peso": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "FechaNacimiento": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "Tipo": {
+                    "type": "string"
+                  },
+                  "IdPadre": {
+                    "type": "string"
+                  },
+                  "IdMadre": {
+                    "type": "string"
+                  },
+                  "IdGrupo": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Estado": {
+                    "type": "string"
+                  },
+                  "FotoURL": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "IdGanado": {
+                  "style": "form"
+                },
+                "Raza": {
+                  "style": "form"
+                },
+                "Peso": {
+                  "style": "form"
+                },
+                "FechaNacimiento": {
+                  "style": "form"
+                },
+                "Tipo": {
+                  "style": "form"
+                },
+                "IdPadre": {
+                  "style": "form"
+                },
+                "IdMadre": {
+                  "style": "form"
+                },
+                "IdGrupo": {
+                  "style": "form"
+                },
+                "Estado": {
+                  "style": "form"
+                },
+                "FotoURL": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Ganado"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "IdGanado": {
+                    "type": "string"
+                  },
+                  "Raza": {
+                    "type": "string"
+                  },
+                  "Peso": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "FechaNacimiento": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "Tipo": {
+                    "type": "string"
+                  },
+                  "IdPadre": {
+                    "type": "string"
+                  },
+                  "IdMadre": {
+                    "type": "string"
+                  },
+                  "IdGrupo": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Estado": {
+                    "type": "string"
+                  },
+                  "FotoURL": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "IdGanado": {
+                  "style": "form"
+                },
+                "Raza": {
+                  "style": "form"
+                },
+                "Peso": {
+                  "style": "form"
+                },
+                "FechaNacimiento": {
+                  "style": "form"
+                },
+                "Tipo": {
+                  "style": "form"
+                },
+                "IdPadre": {
+                  "style": "form"
+                },
+                "IdMadre": {
+                  "style": "form"
+                },
+                "IdGrupo": {
+                  "style": "form"
+                },
+                "Estado": {
+                  "style": "form"
+                },
+                "FotoURL": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ganado/Grupo/Grafico/{Id}": {
+      "get": {
+        "tags": [
+          "Ganado"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ganado/Grupo/{id}": {
+      "get": {
+        "tags": [
+          "Ganado"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ganado/{id}": {
+      "get": {
+        "tags": [
+          "Ganado"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Grupo": {
+      "post": {
+        "tags": [
+          "Grupo"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "IdGrupo": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Nombre": {
+                    "type": "string"
+                  },
+                  "IdFinca": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "FotoURL": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "IdGrupo": {
+                  "style": "form"
+                },
+                "Nombre": {
+                  "style": "form"
+                },
+                "IdFinca": {
+                  "style": "form"
+                },
+                "FotoURL": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Grupo"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "IdGrupo": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Nombre": {
+                    "type": "string"
+                  },
+                  "IdFinca": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "FotoURL": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "IdGrupo": {
+                  "style": "form"
+                },
+                "Nombre": {
+                  "style": "form"
+                },
+                "IdFinca": {
+                  "style": "form"
+                },
+                "FotoURL": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Grupo/Finca/{id}": {
+      "get": {
+        "tags": [
+          "Grupo"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Grupo/{id}": {
+      "get": {
+        "tags": [
+          "Grupo"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Grupo"
         ],
         "parameters": [
           {

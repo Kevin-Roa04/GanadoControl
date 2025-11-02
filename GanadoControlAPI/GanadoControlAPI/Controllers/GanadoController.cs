@@ -105,7 +105,7 @@ namespace GanadoControlAPI.Controllers
             }
             try
             {
-                DAOGanado ganado1 = new DAOGanado();
+                DTOGanado ganado1 = new DTOGanado();
                 if (ganado.FotoURL != null)
                 {
                     ganado1.FotoURL = await ImageUtility.CrearImagen(ganado.FotoURL, "FotosDeGanados", _webHostEnvironment.WebRootPath, HttpContext.Request.Scheme, HttpContext.Request.Host.ToString());

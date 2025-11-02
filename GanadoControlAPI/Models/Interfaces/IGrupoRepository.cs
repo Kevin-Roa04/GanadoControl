@@ -10,9 +10,9 @@ namespace Models.Interfaces
 {
     public interface IGrupoRepository : IData<Grupo>
     {
-        public Task<List<DAOGrupo>> GetAllByFinca(int IdFinca);
-        public Task<DAOGrupo> GetGrupo(int id);
-        public Task<bool> UpdateGrupo(DAOGrupo grupo);
+        public Task<List<DTOGrupo>> GetAllByFinca(int IdFinca);
+        public Task<DTOGrupo> GetGrupo(int id);
+        public Task<bool> UpdateGrupo(DTOGrupo grupo);
         public Task<bool> DeleteGrupo(int id);
     }
 }

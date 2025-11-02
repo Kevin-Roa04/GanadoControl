@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GanadoControlAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+234980226cbe8d77cd2d823ef7b782002144e491")]
 [assembly: System.Reflection.AssemblyProductAttribute("GanadoControlAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GanadoControlAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

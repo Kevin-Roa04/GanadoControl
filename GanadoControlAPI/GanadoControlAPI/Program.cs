@@ -12,6 +12,7 @@ builder.Services.AddScoped<IProblemaFisicoRepository>(provider => new ProblemaFi
 builder.Services.AddScoped<IDetalleGanadoRepository>(provider => new DetalleGanadoData(connectionString));
 builder.Services.AddScoped<IGanadoRepository>(provider => new GanadoData(connectionString));
 builder.Services.AddScoped<IGrupoRepository>(provider => new GrupoData(connectionString));
+builder.Services.AddScoped<IDetalleGrupoFotoRepository>(provider => new DetalleGrupoFotoData(connectionString));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

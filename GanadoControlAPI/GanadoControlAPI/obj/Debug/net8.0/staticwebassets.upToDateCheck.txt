@@ -58,6 +58,7 @@ wwwroot\FotosDeGanados\4931bbfb-ec20-4d1f-bc99-8da7f6daff55.png
 wwwroot\FotosDeGanados\4940cafc-089a-4739-9a4e-43126aa5404c.png
 wwwroot\FotosDeGanados\55bae67a-4e3a-480e-8ac2-e565cc8d85c8.png
 wwwroot\FotosDeGanados\57dab9ad-f3ab-4cf2-aa2f-c51180e197c4.png
+wwwroot\FotosDeGanados\5d74fc54-abe1-4782-99ff-369f68489d9c.png
 wwwroot\FotosDeGanados\5eae7e70-12f2-4c3c-b743-53b0c5209468.png
 wwwroot\FotosDeGanados\5ef76888-b579-497a-806e-c3b481631708.png
 wwwroot\FotosDeGanados\60952368-dde0-4a41-9cec-b4e1ff05f2b6.png

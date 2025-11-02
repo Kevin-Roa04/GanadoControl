@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Kevin Roa\\Desktop\\DSIGanadoControl\\GanadoControlAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|c:\\users\\kevin roa\\desktop\\dsiganadocontrol\\ganadocontrolapi\\ganadocontrolapi\\controllers\\grupocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|solutionrelative:ganadocontrolapi\\controllers\\grupocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|c:\\users\\kevin roa\\desktop\\dsiganadocontrol\\ganadocontrolapi\\ganadocontrolapi\\controllers\\detallegrupofotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|solutionrelative:ganadocontrolapi\\controllers\\detallegrupofotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|c:\\users\\kevin roa\\desktop\\dsiganadocontrol\\ganadocontrolapi\\ganadocontrolapi\\controllers\\farmacocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|solutionrelative:ganadocontrolapi\\controllers\\farmacocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|c:\\users\\kevin roa\\desktop\\dsiganadocontrol\\ganadocontrolapi\\ganadocontrolapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|solutionrelative:ganadocontrolapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +43,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GrupoController.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Roa\\Desktop\\DSIGanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\GrupoController.cs",
+              "RelativeDocumentMoniker": "GanadoControlAPI\\Controllers\\GrupoController.cs",
+              "ToolTip": "C:\\Users\\Kevin Roa\\Desktop\\DSIGanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\GrupoController.cs*",
+              "RelativeToolTip": "GanadoControlAPI\\Controllers\\GrupoController.cs*",
+              "ViewState": "AgIAADYAAAAAAAAAAAAiwEsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T12:21:15.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FarmacoController.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Roa\\Desktop\\DSIGanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\FarmacoController.cs",
+              "RelativeDocumentMoniker": "GanadoControlAPI\\Controllers\\FarmacoController.cs",
+              "ToolTip": "C:\\Users\\Kevin Roa\\Desktop\\DSIGanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\FarmacoController.cs",
+              "RelativeToolTip": "GanadoControlAPI\\Controllers\\FarmacoController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAlwEwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T11:28:13.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Roa\\Desktop\\DSIGanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Program.cs",
+              "RelativeDocumentMoniker": "GanadoControlAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Kevin Roa\\Desktop\\DSIGanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Program.cs",
+              "RelativeToolTip": "GanadoControlAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T12:24:36.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DetalleGrupoFotoController.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Roa\\Desktop\\DSIGanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\DetalleGrupoFotoController.cs",
+              "RelativeDocumentMoniker": "GanadoControlAPI\\Controllers\\DetalleGrupoFotoController.cs",
+              "ToolTip": "C:\\Users\\Kevin Roa\\Desktop\\DSIGanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\DetalleGrupoFotoController.cs",
+              "RelativeToolTip": "GanadoControlAPI\\Controllers\\DetalleGrupoFotoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T12:23:57.428Z",
+              "EditorCaption": ""
             }
           ]
         }
