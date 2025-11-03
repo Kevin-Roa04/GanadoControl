@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 var connectionString = builder.Configuration["ConectionString"];
+builder.Services.AddScoped<IUsuarioRepository>(provider => new UsuarioData(connectionString));
 builder.Services.AddScoped<IFarmacoRepository>(provider => new FarmacoData(connectionString));
 builder.Services.AddScoped<IRecordatorioRepository>(provider => new RecordatorioData(connectionString));
 builder.Services.AddScoped<ITratamientoRepository>(provider => new TratamientoData(connectionString));

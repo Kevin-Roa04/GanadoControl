@@ -11,3 +11,16 @@ C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\Models\obj\Debug\ne
 C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\Models\obj\Debug\net8.0\ref\Models.dll
 C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\Models\obj\Debug\net8.0\Models.csproj.AssemblyReference.cache
 C:\Users\Kevin Roa\Desktop\DSIGanadoControl\GanadoControlAPI\Models\obj\Debug\net8.0\Models.sourcelink.json
+C:\Net Projects\GanadoControl\GanadoControlAPI\Models\bin\Debug\net8.0\Models.deps.json
+C:\Net Projects\GanadoControl\GanadoControlAPI\Models\bin\Debug\net8.0\Models.dll
+C:\Net Projects\GanadoControl\GanadoControlAPI\Models\bin\Debug\net8.0\Models.pdb
+C:\Net Projects\GanadoControl\GanadoControlAPI\Models\obj\Debug\net8.0\Models.csproj.AssemblyReference.cache
+C:\Net Projects\GanadoControl\GanadoControlAPI\Models\obj\Debug\net8.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Net Projects\GanadoControl\GanadoControlAPI\Models\obj\Debug\net8.0\Models.AssemblyInfoInputs.cache
+C:\Net Projects\GanadoControl\GanadoControlAPI\Models\obj\Debug\net8.0\Models.AssemblyInfo.cs
+C:\Net Projects\GanadoControl\GanadoControlAPI\Models\obj\Debug\net8.0\Models.csproj.CoreCompileInputs.cache
+C:\Net Projects\GanadoControl\GanadoControlAPI\Models\obj\Debug\net8.0\Models.sourcelink.json
+C:\Net Projects\GanadoControl\GanadoControlAPI\Models\obj\Debug\net8.0\Models.dll
+C:\Net Projects\GanadoControl\GanadoControlAPI\Models\obj\Debug\net8.0\refint\Models.dll
+C:\Net Projects\GanadoControl\GanadoControlAPI\Models\obj\Debug\net8.0\Models.pdb
+C:\Net Projects\GanadoControl\GanadoControlAPI\Models\obj\Debug\net8.0\ref\Models.dll

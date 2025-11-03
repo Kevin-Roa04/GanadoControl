@@ -839,5 +839,114 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.UsuarioController",
+    "Method": "InsertarUsuario",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "NombreUsuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Correo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Contrase\u00F1a",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Cargo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.UsuarioController",
+    "Method": "Actualizar",
+    "RelativePath": "api/Usuario/{id}, {nombreUsuario}, {contrase\u00F1aActual}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombreUsuario",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "contrase\u00F1aActual",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "contrase\u00F1aNueva",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.UsuarioController",
+    "Method": "CambiarEstado",
+    "RelativePath": "api/Usuario/estado/{id}, {estado}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "estado",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.UsuarioController",
+    "Method": "VerificarUsuario",
+    "RelativePath": "api/Usuario/verificar/{nombreUsuario}, {contrase\u00F1a}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreUsuario",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "contrase\u00F1a",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
