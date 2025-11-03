@@ -1,5 +1,57 @@
 [
   {
+    "ContainingType": "GanadoControlAPI.Controllers.DetalleFincaController",
+    "Method": "InsertarDetalleFinca",
+    "RelativePath": "api/DetalleFinca",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdFinca",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Fecha",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "RolUsuario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.DetalleFincaFotoController",
+    "Method": "Insertar",
+    "RelativePath": "api/DetalleFincaFoto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdFinca",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "FotoURL",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "GanadoControlAPI.Controllers.DetalleGanadoController",
     "Method": "Insertar",
     "RelativePath": "api/DetalleGanado",
@@ -206,6 +258,218 @@
         "Name": "idFinca",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.FincaController",
+    "Method": "InsertarFinca",
+    "RelativePath": "api/Finca",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdFinca",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Ubicacion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Hectareas",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "NombreDue\u00F1o",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FotoURL",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Fecha",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "RolUsuario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.FincaController",
+    "Method": "Put",
+    "RelativePath": "api/Finca",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdFinca",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Ubicacion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Hectareas",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "NombreDue\u00F1o",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FotoURL",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Fecha",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "RolUsuario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.FincaController",
+    "Method": "Get",
+    "RelativePath": "api/Finca/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.FincaController",
+    "Method": "Delete",
+    "RelativePath": "api/Finca/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.FincaController",
+    "Method": "IngresarPorInvitacion",
+    "RelativePath": "api/Finca/invitacion/{token}, {idUsuario}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.FincaController",
+    "Method": "Invitar",
+    "RelativePath": "api/Finca/invitacion/{usuarioCreadorId}, {fincaId}, {rol}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioCreadorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "fincaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rol",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GanadoControlAPI.Controllers.FincaController",
+    "Method": "GetAllFincaByUsuario",
+    "RelativePath": "api/Finca/Usuario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

@@ -3,20 +3,79 @@
   "WorkspaceRootPath": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\ganadocontrolapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|solutionrelative:ganadocontrolapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{961A7414-F3C7-4154-912E-F5B6A8DDBB45}|Data\\Data.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\data\\repository\\fincadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961A7414-F3C7-4154-912E-F5B6A8DDBB45}|Data\\Data.csproj|solutionrelative:data\\repository\\fincadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{961A7414-F3C7-4154-912E-F5B6A8DDBB45}|Data\\Data.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\data\\repository\\usuariodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{961A7414-F3C7-4154-912E-F5B6A8DDBB45}|Data\\Data.csproj|solutionrelative:data\\repository\\usuariodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\ganadocontrolapi\\controllers\\fincacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|solutionrelative:ganadocontrolapi\\controllers\\fincacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\models\\dto\\dtoinsertfinca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|solutionrelative:models\\dto\\dtoinsertfinca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\models\\interfaces\\idetallefincarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|solutionrelative:models\\interfaces\\idetallefincarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\ganadocontrolapi\\controllers\\detallefincafotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|solutionrelative:ganadocontrolapi\\controllers\\detallefincafotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\ganadocontrolapi\\controllers\\detallefincacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|solutionrelative:ganadocontrolapi\\controllers\\detallefincacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961A7414-F3C7-4154-912E-F5B6A8DDBB45}|Data\\Data.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\data\\repository\\detallefincafotodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961A7414-F3C7-4154-912E-F5B6A8DDBB45}|Data\\Data.csproj|solutionrelative:data\\repository\\detallefincafotodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961A7414-F3C7-4154-912E-F5B6A8DDBB45}|Data\\Data.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\data\\repository\\detallefincadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961A7414-F3C7-4154-912E-F5B6A8DDBB45}|Data\\Data.csproj|solutionrelative:data\\repository\\detallefincadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\models\\interfaces\\ifincarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|solutionrelative:models\\interfaces\\ifincarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\models\\interfaces\\idetallefincafotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|solutionrelative:models\\interfaces\\idetallefincafotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\models\\dto\\daofinca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|solutionrelative:models\\dto\\daofinca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\models\\dto\\daousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|solutionrelative:models\\dto\\daousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\models\\entities\\detallefincafoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|solutionrelative:models\\entities\\detallefincafoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\models\\entities\\detallefinca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|solutionrelative:models\\entities\\detallefinca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\models\\entities\\finca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|solutionrelative:models\\entities\\finca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\ganadocontrolapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|solutionrelative:ganadocontrolapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\models\\dto\\daousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|solutionrelative:models\\dto\\daousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{961A7414-F3C7-4154-912E-F5B6A8DDBB45}|Data\\Data.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\data\\repository\\usuariodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961A7414-F3C7-4154-912E-F5B6A8DDBB45}|Data\\Data.csproj|solutionrelative:data\\repository\\usuariodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danny\\AppData\\Roaming\\Microsoft\\UserSecrets\\ab04e7fd-7cbd-49da-99d2-f72cd4d14a57\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\ganadocontrolapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|solutionrelative:ganadocontrolapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\models\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,9 +84,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\models\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1BFCE25-EB81-4E9D-A822-6B61933FAC4B}|Models\\Models.csproj|solutionrelative:models\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danny\\AppData\\Roaming\\Microsoft\\UserSecrets\\ab04e7fd-7cbd-49da-99d2-f72cd4d14a57\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F61FBA8D-620F-4FC7-A4C5-969B2D10C0D9}|GanadoControlAPI\\GanadoControlAPI.csproj|c:\\net projects\\ganadocontrol\\ganadocontrolapi\\ganadocontrolapi\\controllers\\grupocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,8 +105,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FincaController.cs",
+              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\FincaController.cs",
+              "RelativeDocumentMoniker": "GanadoControlAPI\\Controllers\\FincaController.cs",
+              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\FincaController.cs",
+              "RelativeToolTip": "GanadoControlAPI\\Controllers\\FincaController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:59:28.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FincaData.cs",
+              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Data\\Repository\\FincaData.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\FincaData.cs",
+              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Data\\Repository\\FincaData.cs",
+              "RelativeToolTip": "Data\\Repository\\FincaData.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAYwJoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:57:42.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DTOInsertFinca.cs",
+              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\DTO\\DTOInsertFinca.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\DTOInsertFinca.cs",
+              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\DTO\\DTOInsertFinca.cs*",
+              "RelativeToolTip": "Models\\DTO\\DTOInsertFinca.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T04:02:06.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDetalleFincaRepository.cs",
+              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\Interfaces\\IDetalleFincaRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\IDetalleFincaRepository.cs",
+              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\Interfaces\\IDetalleFincaRepository.cs",
+              "RelativeToolTip": "Models\\Interfaces\\IDetalleFincaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T04:01:04.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DetalleFincaFotoController.cs",
+              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\DetalleFincaFotoController.cs",
+              "RelativeDocumentMoniker": "GanadoControlAPI\\Controllers\\DetalleFincaFotoController.cs",
+              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\DetalleFincaFotoController.cs",
+              "RelativeToolTip": "GanadoControlAPI\\Controllers\\DetalleFincaFotoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T04:00:18.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DetalleFincaController.cs",
+              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\DetalleFincaController.cs",
+              "RelativeDocumentMoniker": "GanadoControlAPI\\Controllers\\DetalleFincaController.cs",
+              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\DetalleFincaController.cs",
+              "RelativeToolTip": "GanadoControlAPI\\Controllers\\DetalleFincaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:58:47.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DetalleFincaFotoData.cs",
+              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Data\\Repository\\DetalleFincaFotoData.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\DetalleFincaFotoData.cs",
+              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Data\\Repository\\DetalleFincaFotoData.cs",
+              "RelativeToolTip": "Data\\Repository\\DetalleFincaFotoData.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:58:10.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DetalleFincaData.cs",
+              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Data\\Repository\\DetalleFincaData.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\DetalleFincaData.cs",
+              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Data\\Repository\\DetalleFincaData.cs",
+              "RelativeToolTip": "Data\\Repository\\DetalleFincaData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:56:45.308Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -69,33 +229,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioData.cs",
-              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Data\\Repository\\UsuarioData.cs",
-              "RelativeDocumentMoniker": "Data\\Repository\\UsuarioData.cs",
-              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Data\\Repository\\UsuarioData.cs",
-              "RelativeToolTip": "Data\\Repository\\UsuarioData.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "DAOFinca.cs",
+              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\DTO\\DAOFinca.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\DAOFinca.cs",
+              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\DTO\\DAOFinca.cs",
+              "RelativeToolTip": "Models\\DTO\\DAOFinca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T03:27:43.798Z",
+              "WhenOpened": "2025-11-03T03:52:27.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "GanadoControlAPI\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "GanadoControlAPI\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "IFincaRepository.cs",
+              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\Interfaces\\IFincaRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\IFincaRepository.cs",
+              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\Interfaces\\IFincaRepository.cs",
+              "RelativeToolTip": "Models\\Interfaces\\IFincaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T03:23:54.284Z",
+              "WhenOpened": "2025-11-03T03:50:56.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "DAOUsuario.cs",
               "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\DTO\\DAOUsuario.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\DAOUsuario.cs",
@@ -108,7 +268,84 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
+              "Title": "IDetalleFincaFotoRepository.cs",
+              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\Interfaces\\IDetalleFincaFotoRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\IDetalleFincaFotoRepository.cs",
+              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\Interfaces\\IDetalleFincaFotoRepository.cs",
+              "RelativeToolTip": "Models\\Interfaces\\IDetalleFincaFotoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:51:24.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DetalleFincaFoto.cs",
+              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\Entities\\DetalleFincaFoto.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\DetalleFincaFoto.cs",
+              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\Entities\\DetalleFincaFoto.cs",
+              "RelativeToolTip": "Models\\Entities\\DetalleFincaFoto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:50:25.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DetalleFinca.cs",
+              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\Entities\\DetalleFinca.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\DetalleFinca.cs",
+              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\Entities\\DetalleFinca.cs",
+              "RelativeToolTip": "Models\\Entities\\DetalleFinca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:50:01.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Finca.cs",
+              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\Entities\\Finca.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Finca.cs",
+              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\Entities\\Finca.cs",
+              "RelativeToolTip": "Models\\Entities\\Finca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:49:46.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UsuarioData.cs",
+              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Data\\Repository\\UsuarioData.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\UsuarioData.cs",
+              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Data\\Repository\\UsuarioData.cs",
+              "RelativeToolTip": "Data\\Repository\\UsuarioData.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwEIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:27:43.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "GanadoControlAPI\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "GanadoControlAPI\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:23:54.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "IUsuarioRepository.cs",
               "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\Interfaces\\IUsuarioRepository.cs",
               "RelativeDocumentMoniker": "Models\\Interfaces\\IUsuarioRepository.cs",
@@ -116,12 +353,11 @@
               "RelativeToolTip": "Models\\Interfaces\\IUsuarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T03:22:18.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T03:22:18.465Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 20,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\Models\\Entities\\Usuario.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Usuario.cs",
@@ -129,12 +365,11 @@
               "RelativeToolTip": "Models\\Entities\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T03:21:04.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T03:21:04.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\danny\\AppData\\Roaming\\Microsoft\\UserSecrets\\ab04e7fd-7cbd-49da-99d2-f72cd4d14a57\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\danny\\AppData\\Roaming\\Microsoft\\UserSecrets\\ab04e7fd-7cbd-49da-99d2-f72cd4d14a57\\secrets.json",
@@ -142,12 +377,11 @@
               "RelativeToolTip": "..\\..\\..\\Users\\danny\\AppData\\Roaming\\Microsoft\\UserSecrets\\ab04e7fd-7cbd-49da-99d2-f72cd4d14a57\\secrets.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-03T03:18:29.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T03:18:29.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "GrupoController.cs",
               "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\GrupoController.cs",
               "RelativeDocumentMoniker": "GanadoControlAPI\\Controllers\\GrupoController.cs",
@@ -155,29 +389,23 @@
               "RelativeToolTip": "GanadoControlAPI\\Controllers\\GrupoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T12:21:15.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T12:21:15.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Program.cs",
               "RelativeDocumentMoniker": "GanadoControlAPI\\Program.cs",
-              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Program.cs*",
-              "RelativeToolTip": "GanadoControlAPI\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
+              "ToolTip": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Program.cs",
+              "RelativeToolTip": "GanadoControlAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T12:24:36.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-11-02T12:24:36.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "FarmacoController.cs",
               "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\FarmacoController.cs",
               "RelativeDocumentMoniker": "GanadoControlAPI\\Controllers\\FarmacoController.cs",
@@ -185,12 +413,11 @@
               "RelativeToolTip": "GanadoControlAPI\\Controllers\\FarmacoController.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAlwEwAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T11:28:13.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T11:28:13.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
               "Title": "DetalleGrupoFotoController.cs",
               "DocumentMoniker": "C:\\Net Projects\\GanadoControl\\GanadoControlAPI\\GanadoControlAPI\\Controllers\\DetalleGrupoFotoController.cs",
               "RelativeDocumentMoniker": "GanadoControlAPI\\Controllers\\DetalleGrupoFotoController.cs",
@@ -199,6 +426,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-02T12:23:57.428Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
